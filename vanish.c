@@ -45,7 +45,7 @@ int main(int argc, char *argv[]){
             fclose(fp);
             remove(argv[1]);
             
-            printf("\n\n[+] Evidence Successfully Distroyed!!!\n");
+            printf("\n\n[+] Evidence Successfully Distroyed!!!\n\n");
         }else{
             printf("[-] File not found or you don't have the permissions...\n");
     }
