@@ -19,7 +19,7 @@ int main(int argc, char *argv[]){
 
             printf("[*] Finding size of the %s", argv[1]);
             long size = ftell(fp);
-            printf("\nFile size: %ld\n Bytes", size);
+            printf("\nFile size: %ld Bytes\n", size);
             
             printf("[*] Going back to the start of the file...\n");
             rewind(fp);
