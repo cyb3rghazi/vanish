@@ -6,6 +6,5 @@ Standard `rm` only removes the file pointer. **Vanish** ensures data is unrecove
 
 ## Installation
 ```bash
-git clone [https://github.com/cyb3rghazi/vanish.git](https://github.com/cyb3rghazi/vanish.git)
-cd vanish
+git clone https://github.com/cyb3rghazi/vanish.git
 make
